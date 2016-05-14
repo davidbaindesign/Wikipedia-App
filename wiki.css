@@ -1,0 +1,177 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background: black;
+  font-family: Tahoma, Geneva, sans-serif;
+ 
+}
+
+p { margin-top: 0 }
+
+
+.container {
+  
+  background: black;
+  min-height: 100%;
+  
+}
+
+.all {
+ 
+  height: 0px;
+  width: 0px; 
+  border-radius: 200px;
+  position: absolute;
+  color: white;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 18px #888888;
+  border: 0px solid white;
+  z-index: 1;
+}
+
+
+.pos1 {
+  
+  top: 10%;
+  left: 20px;
+  
+  
+}
+
+.pos2 {
+ 
+  top: 89%;
+  left: 87%;
+  
+}
+
+.pos3 {
+ 
+  top: 50%;
+  left: 10%;
+ 
+}
+
+.pos4 {
+
+  top: 10%;
+  left: 90%;
+
+}
+
+.pos5 {
+ 
+  top: 5%;
+  left: 40%;
+ 
+ 
+}
+
+.pos6 {
+ 
+  top: 50%;
+  left: 70%;
+ 
+}
+
+.pos7 {
+ 
+  top: 70%;
+  left: 30%;
+ 
+}
+
+.pos8 {
+ 
+  top: 90%;
+  left: 56%;
+ 
+}
+
+
+
+.top {
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-100%); /* IE 9 */
+  -webkit-transform: translate(-50%,-100%); /* Safari */
+  transform: translate(-50%,-100%);
+  text-align: center;
+
+
+}
+
+.bottom {
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,0%); /* IE 9 */
+  -webkit-transform: translate(-50%,0%); /* Safari */
+  transform: translate(-50%,0%);
+  text-align: center;
+
+}
+
+
+
+#input {
+  
+  font-family: FontAwesome;
+  width: 50px;
+  height: 50px;
+  border-radius: 0px;
+  border: 0px solid #000000;
+  background: #000000;
+  color: white;
+  font-size: 50px;
+  -webkit-transition: width 1s, background-color 2s, -webkit-transform 2s;
+    transition: width 1s, background-color 2s, transform 2s;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1 !important; /* for chrome */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+  opacity: 1 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {  
+   color: #fff;
+   opacity: 1 !important;
+}
+
+
+
+#input:active, #input:hover, #input:focus {
+  
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 5px solid white;
+  
+  
+}
+
+#random {
+  font-size: 65px;
+  color: white;
+  font-weight: bold;
+ 
+ 
+}
